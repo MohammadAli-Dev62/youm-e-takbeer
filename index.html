@@ -1,257 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./source/fav.ico" type="image/x-icon">
     <title>Dr. Abdul Qadeer Khan | Youm-e-Taqbeer</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Preloader -->
     <div class="preloader">
-        <div class="atom-spinner">
-            <div class="spinner-inner">
-                <div class="spinner-line"></div>
-                <div class="spinner-line"></div>
-                <div class="spinner-line"></div>
-                <div class="spinner-circle">&#9679;</div>
-            </div>
-            <p>Loading...</p>
+      <div class="atom-spinner">
+        <div class="spinner-inner">
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <div class="spinner-circle">&#9679;</div>
         </div>
+        <p>Loading...</p>
+      </div>
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="logo">A.Q. Khan<span>Tribute</span></a>
-            <div class="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#bio">Biography</a></li>
-                <li><a href="#taqbeer">Youm-e-Taqbeer</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <nav class="navbar" style="width: 100%">
+      <div class="container">
+        <a href="index.html" class="logo">A.Q. Khan<span>Tribute</span></a>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#bio">Biography</a></li>
+          <li><a href="#taqbeer">Youm-e-Taqbeer</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-background"></div>
-        <canvas id="particles-js"></canvas>
-        <div class="hero-content">
-            <h1 class="hero-title">
-                <span class="title-line">Dr. Abdul Qadeer</span>
-                <span class="title-line">Khan</span>
-            </h1>
-            <p class="hero-subtitle">The Father of Pakistan's Nuclear Program</p>
-            <div class="hero-date">
-                <span class="date-number">28</span>
-                <span class="date-month">May</span>
-                <span class="date-year">Youm-e-Taqbeer</span>
-            </div>
-            <!-- <a href="#about" class="scroll-down">
+      <div class="hero-background"></div>
+      <canvas id="particles-js"></canvas>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="title-line">Dr. Abdul Qadeer</span>
+          <span class="title-line">Khan</span>
+        </h1>
+        <p class="hero-subtitle">The Father of Pakistan's Nuclear Program</p>
+        <div class="hero-date">
+          <span class="date-number">28</span>
+          <span class="date-month">May</span>
+          <span class="date-year">Youm-e-Taqbeer</span>
+        </div>
+        <!-- <a href="#about" class="scroll-down">
                 <span></span>
                 <span></span>
                 <span></span>
             </a> -->
-        </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="bio" class="about-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Pakistan's <span>National Hero</span></h2>
-                <div class="section-divider"></div>
-            </div>
-            
-            <div class="about-content">
-                <div class="about-image">
-                    <div class="image-wrapper">
-                        <img src="./source/image.jpg" alt="Dr. A.Q. Khan" class="main-img">
-                        <div class="image-overlay"></div>
-                    </div>
-                    <div class="atomic-symbol">
-                        <div class="nucleus"></div>
-                        <div class="orbit"></div>
-                        <div class="electron"></div>
-                    </div>
-                </div>
-                <div class="about-text">
-                    <p>Dr. Abdul Qadeer Khan (1936-2021) was a Pakistani nuclear physicist and metallurgical engineer who founded the uranium enrichment program for Pakistan's atomic bomb project.</p>
-                    <p>He is revered as a national hero for making Pakistan the first Islamic nuclear power and the seventh nation in the world to develop and test nuclear weapons.</p>
-                    <a href="biography.html" class="btn">Read Full Biography</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Pakistan's <span>National Hero</span></h2>
+          <div class="section-divider"></div>
         </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-wrapper">
+              <img
+                src="./source/image.jpg"
+                alt="Dr. A.Q. Khan"
+                class="main-img"
+              />
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              Dr. Abdul Qadeer Khan (1936-2021) was a Pakistani nuclear
+              physicist and metallurgical engineer who founded the uranium
+              enrichment program for Pakistan's atomic bomb project.
+            </p>
+            <p>
+              He is revered as a national hero for making Pakistan the first
+              Islamic nuclear power and the seventh nation in the world to
+              develop and test nuclear weapons.
+            </p>
+            <a href="biography.html" class="btn">Read Full Biography</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Timeline Section -->
-    <section class="timeline-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Journey <span>Timeline</span></h2>
-                <div class="section-divider"></div>
-            </div>
-            
-            <div class="timeline-container">
-                <div class="timeline-progress"></div>
-                
-                <div class="timeline-items">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-year">1936</div>
-                        <div class="timeline-content">
-                            <h3>Born in Bhopal, India</h3>
-                            <p>Born on April 1, 1936 in British India</p>
-                            <div class="timeline-image">
-                                <img src="./source/bhopal.jpg" alt="Bhopal">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-year">1952</div>
-                        <div class="timeline-content">
-                            <h3>Migration to Pakistan</h3>
-                            <p>Moved to Pakistan after partition</p>
-                            <div class="timeline-image">
-                                <img src="./source/karachi.jpg" alt="Karachi" style="height: 250px;">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-year">1976</div>
-                        <div class="timeline-content">
-                            <h3>Founded KRL</h3>
-                            <p>Established Khan Research Laboratories</p>
-                            <div class="timeline-image">
-                                <img src="./source/krl.jpg" alt="KRL">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-year">1998</div>
-                        <div class="timeline-content">
-                            <h3>Nuclear Tests</h3>
-                            <p>Chagai nuclear tests on May 28, 1998</p>
-                            <div class="timeline-image">
-                                <img src="./source/Chagai Test.jpg" alt="Chagai Test">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-year">2021</div>
-                        <div class="timeline-content">
-                            <h3>Passed Away</h3>
-                            <p>Died on October 10, 2021 in Islamabad</p>
-                            <div class="timeline-image">
-                                <img src="./source/death.jpg" alt="Funeral">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="timeline-section" style="margin-right: 20px;">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Journey <span>Timeline</span></h2>
+          <div class="section-divider"></div>
         </div>
+
+        <div class="timeline-container">
+          <div class="timeline-progress"></div>
+
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">1936</div>
+              <div class="timeline-content">
+                <h3>Born in Bhopal, India</h3>
+                <p>Born on April 1, 1936 in British India</p>
+                <div class="timeline-image">
+                  <img src="./source/bhopal.jpg" alt="Bhopal" />
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">1952</div>
+              <div class="timeline-content">
+                <h3>Migration to Pakistan</h3>
+                <p>Moved to Pakistan after partition</p>
+                <div class="timeline-image">
+                  <img
+                    src="./source/karachi.jpg"
+                    alt="Karachi"
+                    style="height: 250px"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">1976</div>
+              <div class="timeline-content">
+                <h3>Founded KRL</h3>
+                <p>Established Khan Research Laboratories</p>
+                <div class="timeline-image">
+                  <img src="./source/krl.jpg" alt="KRL" />
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">1998</div>
+              <div class="timeline-content">
+                <h3>Nuclear Tests</h3>
+                <p>Chagai nuclear tests on May 28, 1998</p>
+                <div class="timeline-image">
+                  <img src="./source/Chagai Test.jpg" alt="Chagai Test" />
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2021</div>
+              <div class="timeline-content">
+                <h3>Passed Away</h3>
+                <p>Died on October 10, 2021 in Islamabad</p>
+                <div class="timeline-image">
+                  <img src="./source/death.jpg" alt="Funeral" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Youm-e-Taqbeer Section -->
     <section class="taqbeer-section" id="taqbeer">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Youm-e-Taqbeer <span>28 May</span></h2>
-                <div class="section-divider"></div>
-            </div>
-            
-            <div class="taqbeer-content">
-                <div class="taqbeer-text">
-                    <p>Youm-e-Taqbeer (Day of Greatness) is celebrated on May 28 to commemorate Pakistan's first successful nuclear tests in 1998 at Chagai Hills, Balochistan.</p>
-                    <p>These tests made Pakistan the seventh nuclear power in the world and the first in the Islamic world.</p>
-                    <a href="taqbeer.html" class="btn">Learn More</a>
-                </div>
-                <div class="taqbeer-image">
-                    <div class="chagai-map">
-                        <img src="./source/youm e takbeer.webp" alt="Chagai Hills">
-                        <div class="explosion-effect"></div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Youm-e-Taqbeer <span>28 May</span></h2>
+          <div class="section-divider"></div>
         </div>
+
+        <div class="taqbeer-content">
+          <div class="taqbeer-text">
+            <p>
+              Youm-e-Taqbeer (Day of Greatness) is celebrated on May 28 to
+              commemorate Pakistan's first successful nuclear tests in 1998 at
+              Chagai Hills, Balochistan.
+            </p>
+            <p>
+              These tests made Pakistan the seventh nuclear power in the world
+              and the first in the Islamic world.
+            </p>
+            <a href="taqbeer.html" class="btn">Learn More</a>
+          </div>
+          <div class="taqbeer-image">
+            <div class="chagai-map">
+              <img src="./source/youm e takbeer.webp" alt="Chagai Hills" />
+              <div class="explosion-effect"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <h2 style="margin-bottom: 0;">Gallery</h2>
+      <div class="section-divider" style="margin-bottom: 50px;"></div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img
+            src="./source/gallery1.jpg"
+            alt="Dr. Abdul Qadeer Khan"
+          />
+          <p>Dr. Abdul Qadeer Khan – Father of Pakistan's Nuclear Program</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="./source/gallery2.jpg"
+            alt="Youm-e-Takbeer Site"
+          />
+          <p>Chagai Hills – Site of Pakistan's First Nuclear Test</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="./source/gallery3.jpg"
+            alt="Youm-e-Takbeer Celebration"
+          />
+          <p>Celebrations of Youm-e-Takbeer Nationwide</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="./source/gallery4.jfif"
+            alt="Dr. AQ Khan in Lab"
+          />
+          <p>Dr. AQ Khan Working in Laboratory</p>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <h3>About This Tribute</h3>
-                    <p>This website is dedicated to the life and achievements of Dr. Abdul Qadeer Khan and the significance of Youm-e-Taqbeer in Pakistan's history.</p>
-                    <div class="footer-contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</p>
-                        <p><i class="fas fa-phone"></i> +92 300 1234567</p>
-                        <p><i class="fas fa-envelope"></i> info@aqkhantribute.com</p>
-                    </div>
-                </div>
-                
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="biography.html">Biography</a></li>
-                        <li><a href="taqbeer.html">Youm-e-Taqbeer</a></li>
-                        <li><a href="science.html">Scientific Work</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="tribute.html">Tribute</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-contact">
-                    <h3>Contact Us</h3>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>About This Tribute</h3>
+            <p>
+              This website is dedicated to the life and achievements of Dr.
+              Abdul Qadeer Khan and the significance of Youm-e-Taqbeer in
+              Pakistan's history.
+            </p>
+            <div class="footer-contact-info">
+              <p><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
+              <p><i class="fas fa-phone"></i> +92 328-3595259</p>
+              <p><i class="fas fa-envelope"></i> mohammadali.dev62@gmail.com</p>
             </div>
-            
-            <div class="footer-bottom">
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <p>&copy; 2023 Dr. A.Q. Khan Tribute. All Rights Reserved.</p>
-            </div>
+          </div>
+
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="taqbeer.html">Youm-e-Taqbeer</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="tribute.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p>&copy; 2025 Dr. A.Q. Khan Tribute. All Rights Reserved.</p>
+        </div>
+      </div>
     </footer>
+    <button id="scrollTopBtn" title="Go to top"></button>
+
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
@@ -259,5 +323,5 @@
     <script src="js/particles.min.js"></script>
     <script src="js/main.js"></script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>

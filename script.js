@@ -192,3 +192,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+  window.addEventListener('scroll', () => {
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      const rect = item.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 50) {
+        item.style.animationPlayState = 'running';
+      }
+    });
+  });
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      scrollTopBtn.style.display = "block";
+    } else {
+      scrollTopBtn.style.display = "none";
+    }
+  };
+
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
